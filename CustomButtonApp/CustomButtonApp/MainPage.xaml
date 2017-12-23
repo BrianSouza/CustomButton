@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CustomButtonApp"
+             x:Class="CustomButtonApp.MainPage"
+             xmlns:customview="clr-namespace:CustomButtonApp"
+             Title="Custom Button">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand" Padding="20,5" Spacing="10">
+            <customview:CustomButton x:Name="btnSignup"
+                                             CustomBorderColor="#2E3F73"
+                                             Text="Custom Button"
+                                             CustomBorderRadius="4"
+                                             CustomBorderWidth="4"
+                                             CustomBackgroundColor="White"
+                                             VerticalOptions="Center"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
